@@ -1,0 +1,10 @@
+  <div className="row text-center mt-3  font-lable " >
+                <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2 " onClick={() => this.clickChange(0)}><span style={click == 1 ? { borderBottom: '3px solid #f75611' } : {}}>Params</span></div>
+                <div className="col-lg-2 col-md-2 col-sm-3 col-xs-3" onClick={() => this.clickChange(1)}><span style={click == 4 ? { borderBottom: '3px solid #f75611' } : {}}>Authorization</span></div>
+                <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2" onClick={() => this.clickChange(2)}><span style={click == 3 ? { borderBottom: '3px solid #f75611' } : {}}>Headers</span></div>
+                <div className="col-2  d-none d-md-block " onClick={() => this.clickChange(3)}><span style={click == 5 ? { borderBottom: '3px solid #f75611' } : {}}>Pre-request Script</span></div>
+                <div className="col-lg-1 col-md-1 col-sm-2 col-xs-2" onClick={() => this.clickChange(4)}><span style={click == 2 ? { borderBottom: '3px solid #f75611' } : {}}>Body</span></div>
+                <div className="col  d-none d-md-block " onClick={() => this.clickChange(5)}><span style={click == 6 ? { borderBottom: '3px solid #f75611' } : {}}>Tests</span></div>
+                <div className="col  d-none d-md-block" onClick={() => this.clickChange(6)}><span style={click == 7 ? { borderBottom: '3px solid #f75611' } : {}}>Settings</span></div>
+                <div className="col-2 col-sm-2 cl-blue" >Cookie</div>
+            </div>

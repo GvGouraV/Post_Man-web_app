@@ -1,0 +1,248 @@
+.histVal {
+  font-size: 12px;
+  padding-top: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.btn-without-border:focus {
+  border: none;
+  outline: none;
+}
+ 
+
+.hist-Scrol {
+  height: 500px;
+  overflow-y: auto;
+}
+.left-icon {
+  font-size: 26px;
+}
+.left-new {
+  background-color: #f0f0f0;
+  font-size: 1vw;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+}
+.btn-new{
+  text-align: right;
+  margin-left:10px;
+  padding-left: 29px;
+  padding-right: 29px;
+  border-radius: 7px;
+  background-color: #f0f0f0;
+  font-size: 11px;
+}
+
+.cl-blue {
+  color: blue;
+}
+
+.hight-150 {
+  height: 150px;
+}
+
+.add-btn {
+  font-size: 20px;
+}
+.env {
+  font-size: 11px;
+  border-left: 2px;
+}
+
+.auth-drop {
+  background-color: #edf1f7;
+}
+
+///////////xs extra small /////////////////////////
+@media only screen and (max-width: 600px) {
+  .left-mob {
+    display: none;
+  }
+  .send-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .font-lable{
+    font-size: 13px;
+  }
+  .my-place {
+    font-size: 10px;
+  }
+  .textArea-mob {
+    width: 390px;
+    height: 130px;
+  }
+  .data-over {
+    height: 200px;
+    width: 370px;
+    overflow-y: auto;
+  }
+  .mob-scrol {
+    height: 100px;
+  
+    overflow-y: auto;
+  }
+
+  .header-data {
+    height: 190px;
+    float: Right;
+    overflow-y: auto;
+  }
+  .img-response {
+    margin-left: 160px;
+    margin-top: 40px;
+    width: auto;
+    height: 50px;
+  }
+  .text-info {
+    margin-left: -40px;
+  }
+  .lable-right {
+    display: block;
+  }
+  .header-side {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+  .header-eye-icon{
+    font-size: 14px;
+  }
+  .response-data{
+    height: 200px;
+  }
+  .btn-save {
+    text-align: right;
+    margin-left: 15px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 7px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+  }
+}
+///////////sm   small /////////////////////////
+
+@media only screen and (min-width: 600px){
+  .left-text-font{
+    font-size: 1vw;
+  }
+  
+  .left-desk{
+    display: none;
+  }
+  .mob-scrol {
+    height: 100px;
+  
+    overflow-y: auto;
+  }
+  .font-lable{
+    font-size: 15px;
+  }
+  .left-scrol{
+    height: 400px;
+      width: 870px;
+      overflow-y: auto;
+  }
+ 
+  .img-response{
+    margin-left: 290px;
+    margin-top: 50px;
+    width: 300px;
+    height: 100px;
+  }
+  .textArea-mob{
+    height: 110px;
+     width: 880px;
+  }
+  .data-over{
+    height: 200px;
+      width: 870px;
+      overflow-y: auto;
+  }
+    .header-data{
+          height: 190px;
+          float: Right;
+          overflow-y: auto;
+      }
+      .response-data{
+        height: 200px;
+      }
+
+      .lable-right {
+        display: block;
+      }
+      .header-side {
+        margin-left: 30px;
+      }
+      .btn-save {
+        text-align: right;
+        margin-left:5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 7px;
+        background-color: #f0f0f0;
+        font-size: 14px;
+      }
+}
+/////////////// lg //////////////////////
+@media only screen and (min-width: 992px){ 
+  .btn-save {
+    text-align: right;
+    margin-left:15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 7px;
+    background-color: #f0f0f0;
+    font-size: 19px;
+  }
+  .font-lable{
+    font-size: 1vw;
+  }
+   .check-box{
+    margin-left: 20px;
+  }
+  .header-side {
+    margin-left: 60px;
+  }
+  .header-data {
+    height: 190px;
+    float: Right;
+    overflow-y: auto;
+  }
+  .response-data{
+    height: 200px;
+  }
+}
+/////////////////////// md .//////////////////
+@media only screen and (min-width: 768px){
+  .font-lable{
+    font-size: 1vw;
+  }
+  .check-box{
+    margin-left: 20px;
+  }
+  .btn-save {
+    text-align: right;
+    margin-left:10px;
+    padding-left: 29px;
+    padding-right: 29px;
+    border-radius: 7px;
+    background-color: #f0f0f0;
+    font-size: 11px;
+  }
+  .response-data{
+    height: 200px;
+  }
+  .header-side {
+    margin-left: 60px;
+  }
+  .header-data {
+    height: 190px;
+    float: Right;
+
+    overflow-y: auto;
+  }
+}
